@@ -36,7 +36,7 @@ setup(name='voteit_site',
       test_suite="voteit_site",
       entry_points="""\
       [fanstatic.libraries]
-      triart = triart_site.fanstatic_lib:triart_lib
+      voteit_site = voteit_site.fanstatic_lib:voteit_site_lib
       """)
 #       message_extractors = { '.': [
 #               ('**.py',   'python', None ),
