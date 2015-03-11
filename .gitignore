@@ -20,4 +20,5 @@ Data.fs*
 .tmp*
 *.egg-info
 local
+.sass-cache
 
