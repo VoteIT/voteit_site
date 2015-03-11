@@ -65,12 +65,13 @@
   position: relative;
   margin-bottom: 20px; }
 
-.on-img {
-  position: absolute;
-  bottom: 0px;
-  padding: 0 30px;
-  color: #fff;
-  background: rgba(0, 0, 0, 0.5);
-  width: 100%; }
+@media (min-width: 768px) {
+  .on-img {
+    position: absolute;
+    bottom: 0px;
+    padding: 0 30px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%; } }
 
 /*# sourceMappingURL=main.css.map */
