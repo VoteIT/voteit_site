@@ -4,3 +4,15 @@
 .navbar-brand img.voteitlogo {
   margin-top: -5px;
 }
+.img-container {
+  position: relative;
+  margin-bottom: 20px;
+}
+.on-img {
+  position: absolute;
+  bottom: 0px;
+  padding: 0 30px;
+  color: #fff;
+  background: rgba(#000, 0.5);
+  width: 100%;
+}
