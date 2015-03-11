@@ -38,8 +38,3 @@ setup(name='voteit_site',
       [fanstatic.libraries]
       voteit_site = voteit_site.fanstatic_lib:voteit_site_lib
       """)
-#       message_extractors = { '.': [
-#               ('**.py',   'python', None ),
-#               ('**.pt',   'chameleon', None ),
-#               ]},
-#       )

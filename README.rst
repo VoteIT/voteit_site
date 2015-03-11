@@ -1,4 +1,4 @@
-TriArt.se README
+VoteIT.se README
 ================
 
-Development version, see Arche project readme instead.
+Dev site for voteit.se
