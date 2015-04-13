@@ -9,8 +9,6 @@ requires = (
     'Arche',
     'pyramid',
     'fanstatic',
-    'lingua',
-    'Babel',
     )
 
 setup(name='voteit_site',
