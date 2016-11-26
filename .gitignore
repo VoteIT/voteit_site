@@ -10,6 +10,7 @@
 bin
 include
 lib
+dist
 eggs
 develop-eggs
 parts
@@ -19,6 +20,7 @@ src
 Data.fs*
 .tmp*
 *.egg-info
+*.css.map
 local
 .sass-cache
 
