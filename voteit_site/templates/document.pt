@@ -8,8 +8,10 @@
 <body>
 <div metal:fill-slot="main-content">
   
-  <div class="img-container" tal:omit-tag="not has_image">
-    <img tal:condition="has_image" tal:replace="structure view.thumb_tag(context, 'banner', direction = 'down')" />
+  <div class="img-container stretchy-wrapper" tal:omit-tag="not has_image">
+    <div tal:define="img_url request.thumb_url(context,  'banner', direction = 'down')"
+         class="force-ratio"
+         style="background-image:url('${img_url}');"></div>
     <div class="on-img" tal:omit-tag="not has_image">
       <h1>${context.title}</h1>
     </div>
