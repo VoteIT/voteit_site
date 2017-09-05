@@ -6,7 +6,7 @@ here = os.path.abspath(os.path.dirname(__file__))
 README = open(os.path.join(here, 'README.rst')).read()
 
 requires = (
-    'Arche',
+    'Arche[thumbnails]',
     'pyramid',
     'fanstatic',
     )
